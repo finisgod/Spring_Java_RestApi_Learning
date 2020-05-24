@@ -2,10 +2,10 @@ Rest Api on Spring Boot
 Java
 Learning 
 
-GET: localhost:{port}/api/v1/customers/ - get all customers
-GET: localhost:{port}/api/v1/customers/1 - get customer with ID 1
+GET: localhost:{port}/api/customers/ - get all customers
+GET: localhost:{port}/api/customers/1 - get customer with ID 1
 
-POST: localhost:{port}/api/v1/customers/
+POST: localhost:{port}/api/customers/
 Request body:
 {
 	"firstName": "name",
@@ -14,7 +14,7 @@ Request body:
 	"budget": "0"
 }
 
-PUT: localhost:{port}/api/v1/customers/
+PUT: localhost:{port}/api/customers/
 Request body:
 Request body:
 {
@@ -25,4 +25,4 @@ Request body:
 }
 
 
-DELETE: localhost:{port}/api/v1/customers/2 - delete customer with ID 2
+DELETE: localhost:{port}/api/customers/2 - delete customer with ID 2
