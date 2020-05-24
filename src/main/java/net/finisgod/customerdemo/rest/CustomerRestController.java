@@ -15,8 +15,8 @@ import java.util.List;
 
 
 @RestController
-@RequestMapping("/api/v1/customers/")
-public class CustomerRestControllerV1 {
+@RequestMapping("/api/customers/")
+public class CustomerRestController {
 
     @Autowired
     private CustomerService customerService;
